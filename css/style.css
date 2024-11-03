@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background: #0D0714;
+    color: #fff;
+}
+
+.container {
+    margin: 160px auto;
+    max-width: 432px;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    transition: all 0.2 linear;
+}
+
+form {
+    display: flex;
+    gap: 11px;
+    align-items: center;
+}
+
+input {
+    padding: 12px 15px;
+    width: 381px;
+    border: 1px solid #3E1671;
+    border-radius: 10px;
+    background: transparent;
+    color: #fff;
+}
+
+#submit {
+    width: 40px;
+    height: 40px;
+    background: #9E78CF;
+    color: #fff;
+    border-radius: 10px;
+    padding: 9px;
+}
+
+.task__title, .done__title {
+    padding-top: 60px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.task__list, .done__list {
+    padding-top: 17px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+li {
+    width: 432px;
+    padding: 22px;
+    background: #15101C;
+    color: #9E78CF;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.task__list li button {
+    float: right;
+    background: transparent;
+    margin: 0 5px;
+}
+
+.done__list li {
+    color: #78CFB0;
+    text-decoration: line-through;
+}
